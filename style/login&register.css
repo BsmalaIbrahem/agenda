@@ -1,0 +1,45 @@
+form{
+	margin:auto;
+	margin-top:100px;
+	width:400px;
+	background-image:linear-gradient(to right,#ff5f6d, #ffc371);
+	color:white;
+	padding-bottom:20px;
+	border-radius:10px;
+}
+form  h2{
+	font-size:30px;
+	text-align:center;
+	font-family:cursive;
+	padding:10px 0;
+}
+form input {
+	display:block;
+	margin:7px auto;
+	width:300px;
+	padding:10px;
+	border-radius:5px;
+	border:0;
+	outline-color:#8080808c;
+	font-size:15px;
+}
+form input[type='submit']{
+	margin-top:20px;
+	width:100px;
+	border-radius:10px;
+	text-transform:capitalize;
+}
+form .rememberMe{
+	width:300px;
+	margin:auto;
+}
+form .rememberMe input{
+	display:inline-block;
+	width:20px;
+
+}
+form a {
+	color:white;
+	margin-left:20px;
+	font-size:20px;
+}

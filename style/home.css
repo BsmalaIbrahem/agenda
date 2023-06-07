@@ -1,0 +1,58 @@
+:root{
+	--mainColor : white;
+	--first-background-color:#ff5f6d;
+	--second-background-color : #ffc371;
+}
+header{
+	background-image:linear-gradient(#ffc3716b,#ffc3716b), url('../images/1.jpg');
+	margin-top:70px;
+	height:550px;
+	background-position:center;
+	background-size:cover;
+}
+
+header div{
+	width:510px;
+    margin:auto;
+	padding-top:150px;
+}
+
+header h1{
+	color:var(--mainColor);
+	font-size:100px;
+	text-transform:capitalize;
+	letter-spacing:10px;
+	font-family:cursive;
+	
+}
+header .btn{
+	margin-left:150px;
+	border-radius:10px;
+}
+
+h2{
+	text-align:center;
+	padding-top:30px;
+	font-size:50px;
+	color:#ffc371;
+	font-family:cursive;
+}
+
+.sections{
+	max-width:1000px;
+	margin:auto;
+	margin-top:50px;
+}
+.sections .options{
+	display:flex;
+	justify-content:space-around;
+}
+.sections .options div{
+	text-align:center;
+	width:27%;
+	background-image:linear-gradient(to right,#ff5f6d, #ffc371);
+	color:white;
+}
+.sections.options div h3{
+	text-transform:capitalize;
+}

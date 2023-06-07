@@ -1,0 +1,39 @@
+form{
+	margin:auto;
+	margin-top:200px;
+	width:400px;
+	border-radius:5px;
+	box-shadow:5px 5px #ffc371d6;
+	padding-bottom:10px;
+}
+ form h2{
+	text-align:center;
+	padding:10px;
+	font-family:cursive;
+}
+ form input, textarea{
+	display:block;
+	width:80%;
+	margin:auto;
+	margin-top:15px;
+	border:3px solid #8080808c;
+	border-radius:5px;
+	
+}
+ form input{
+	height:40px;
+}
+ form textarea{
+	height:120px;
+	resize:none;
+}
+form input[type='submit']{
+	width:20%;
+	height:40px;
+	font-size:20px;
+	font-family:cursive;
+	border-radius:10px;
+	font-weight:bold;
+	text-transform:capitalize;
+
+}
